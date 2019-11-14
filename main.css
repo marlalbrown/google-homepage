@@ -1,0 +1,93 @@
+div {
+	display:inline-block;
+	position: relative;
+  	max-width: 665px;
+  	padding: 2px 10px 5px 10px;
+  	background: transparent;
+   	vertical-align: top;
+}
+.leftoptions {
+	position: relative;
+	margin: 2px 5px 5px 5px;
+	width: 100%;
+	text-align: left;
+	word-spacing: 10px;
+	font-family: "Roboto", sans-serif;
+	font-size: 13;
+}
+.rightoptions {
+	position: relative;
+	margin: 5px 5px 5px 5px;
+	width: 100%;
+	text-align: right;
+	word-spacing: 10px;
+	font-family: "Roboto", sans-serif;
+	font-size: 13;
+}
+.googlelogo {
+	position: relative;
+	justify-content: center;
+	width: 300px;
+	height: 100px;
+	margin: 80px 550px 20px 550px;
+}
+.googlelogo img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.input {
+	display: block;
+	position: relative;
+	justify-content: center;
+	width: 550px;
+	height: 60px;
+	margin: auto auto auto auto;
+}
+#textinput {
+	display: block;
+	width: 100%;
+	height: 75%;
+	color: black;
+	font-size: 13pt;
+	border-radius: 25px;
+	padding-left: 40px;
+}
+#textinput:focus {
+	/*Gets rid of blue highlight around text input box*/
+	outline-width: 0;
+}
+#search {
+	position: relative;
+	justify-content: left;
+	width: 15px;
+	height: 15px;
+	margin-top: -32px;
+	margin-left: 15px;
+	padding-top: 2px;
+}
+.buttonplace {
+	position: relative;
+	justify-content: center;
+	border-spacing: 20px;
+	width: 600px;
+	margin: 10px 400px 100px 400px;
+}
+.buttondesign {
+	width: 145px;
+	height: 40px;
+	margin-right: 10px;
+	background: #F5F5F5;
+	border-color: #F5F5F5;
+	color: grey;
+	font-size: 11pt;
+	cursor: pointer;
+}
+.buttondesign:hover {
+	border-color: grey;
+	background: #F5F5F5;
+	color: black;
+}
+#tab {
+	margin-left: 145px;
+}
